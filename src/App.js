@@ -63,7 +63,7 @@ function App() {
         <p>
           Nb : React 18 di development mode akan tetap melakukan dua kali useEffect.
           solusi yang harus dilakukan adalah membuat flag pada saat melakukan
-          request, jika telah berjalan sebanyak satu kali maka segera lakukan <code> setUserData </code> dan pada saat cleanUp lakukan lakukan return null atau unsubscribe pada request
+          request, jika telah berjalan sebanyak satu kali maka segera lakukan <code> setUserData </code> kemudian pada saat cleanUp lakukan lakukan return null atau unsubscribe pada request
           seperti contoh pada code berikut : 
           <Gist id={gistData.id} />
         </p>
