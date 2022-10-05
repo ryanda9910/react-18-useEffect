@@ -73,6 +73,7 @@ function App() {
           ke prod mode dan serve file hasil build nya di local pc dengan command
           <code> serve -s build </code>
         </p>
+        <a href="https://github.com/ryanda9910/react-18-useEffect">Full Repo</a>
       </div>
     </div>
   );
