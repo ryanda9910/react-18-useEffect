@@ -61,8 +61,8 @@ function App() {
       </button>
       <div>
         <p>
-          Nb : React 18 di development mode akan tetap melakukan dua kali useEffect jika menggunakan <code>{`<StrictMode></StrictMode>`} </code> pada root index.
-          solusi yang harus dilakukan adalah membuat flag pada saat melakukan
+          Nb : React 18 di development mode akan tetap melakukan dua kali useEffect jika menggunakan <code>{`<StrictMode></StrictMode>`} </code> pada root index .
+          Solusi yang harus dilakukan adalah membuat flag pada saat melakukan
           request, jika telah berjalan sebanyak satu kali maka segera lakukan <code> setUserData </code> kemudian pada saat cleanUp lakukan lakukan return null atau unsubscribe pada request
           seperti contoh pada code berikut : 
           <Gist id={gistData.id} />
